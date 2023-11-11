@@ -1,0 +1,106 @@
+
+<!DOCTYPE html> <!--Etiqueta de apertura-->
+<html lang="en"> <!--Indica el lenguaje es/en español/ingles-->
+<head> <!--Colocar links de archivos, configuraciones especificas-->
+    <meta charset="UTF-8">  <!--charset-interpreta el navegador/indicamos como debe codificarlo
+                               UTF8-Codificar caracteres como signos de puntuación(, . ' ñ)-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <!--Define como queremos que se muestre nuestro archivo sin importar nuestro dispositivo
+        - Hace responsivo nuestro sitio-->
+    <title>Yo puedo Programar</title>  <!--Titulo del nombre que se visualiza en la tab del navegador -->
+</head>
+<body><!--Contenido de la pagina web-->
+
+    <!--Herramientas semanticas HTML-->
+    <header>
+        <h1>YO PUEDO PROGRAMAR</h1> <!--Buena practica:En un archivo html, solo puede existir  una etiqueta h1-->
+        <!--Agregando una imagen/La etiqueta img NO TIENE ETIQUETA DE CIERRE-->
+        <!--scr-referenciar la imagen desde donde la tenemos guardada-->
+        <!--alt-Muestra texto en caso de que no se visualize tu imagen-->
+        <!--Width-aributo que permite definir el tamaño de la imagen-->
+        <img src="./images/logo.png" alt="Logo YPP" width="50px">
+    </header>
+
+    <!--Insertando barra de navegación-->
+    <!--Herramienta semantica para apartado de información -->
+    <main>
+    <!--DIV- Separadores invisibles- Herramienta semantica de agrupacion de etiquetas-->
+    <!--La semantica dan estructura a nuestro contenido-->
+        <!--ID-Identificador unico/no se puede repetir-->
+        <div>
+        <h2>Junior Achivement Mexico</h2>
+        <p>¡Bienvenidos a una experiencia de Junior Achievement México! 
+
+            Sobre Junior Achievement México</p>
+        <p>A través de programas presenciales y virtuales basados en la pedagogía de aprender 
+            haciendo, con sentido y por proyectos, para que puedas desarrollar las competencias 
+            socioemocionales necesarias para el siglo XXI: pensamiento crítico, creatividad, 
+            comunicación, colaboración, iniciativa y liderazgo; con especial hincapié en la 
+            promoción de las carreras del futuro vinculadas 
+            a las STEM y las habilidades digitales.</p>
+        <!--Agregando videos-->
+        <!--Existen dos maneras de añadir videos-->
+        <!--Agregando videos por medido de la etiqueta link-->
+        <a href="https://www.youtube.com/watch?v=hLBsCL2cUWs">Ir al video</a>
+        <!--Agregar un video copiando el "inframe"; este se copia desde Youtube en la seccion de Compartir-Incorporar-Copiar inframe-->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/hLBsCL2cUWs?si=111sIXudV7luGJRy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div>
+            <h2>Yo puedo programar</h2>
+            <!--Agregando parrafos y Titulos-->
+            <p>
+               Podras desarrollar ti primer sito web en solo 6 sesiones, conociendo los fundamentos basicos
+               del desarrollo web. 
+            </p>
+        
+            <!--Agregando una imagen copiando su dirreción-->
+            <!--No recomendable porque es propiedad externa esta sujeta a cambios de existencia 
+                de donde la descargamos-->
+            <img src="https://www.itconsultors.com/images/blog/web-dev.jpg" alt="" width="200px">
+        </div>
+    
+        <div>
+             <!--Agregando enlaces-->
+            <!--Enlazar un enlace con un tutilo -->
+            <a href="https://www.coderhouse.com.mx/blog/que-es-el-desarrollo-web"><h2>Desarrollo Web</h2></a>
+            <p>
+                Los participantes deberan de ayudarte a formar el concepto que ellos tienen de Desarrollo web
+            </p>
+             <!--Añadir un enlace a nuestro sito web-->
+            <!--Etiqueta target-Nos da la opción de como queremos abrir el enlace (blank)Abre 
+                el link en otra pestaña-->
+            <a href="https://www.coderhouse.com.mx/blog/que-es-el-desarrollo-web" target="_blank">Click aquí</a>
+        </div>
+   
+        <div>
+            <h3>¿Que aprenderemos?</h3>
+            <!--Añadiendo listas desordenadas-->
+            <ul>
+                <li>Codigo HTML</li>
+                <li>Codigo CSS</li>
+                <li>Codigo JavaScript</li>
+            </ul>
+        </div>
+        
+        <div>
+            <h3>¿Como creamos nuestro sitio web?</h3>
+            <!--Añadiendo listas ordenadas-->
+            <ol>
+                <li>Crear carpeta en nuestro dispositivo</li>
+                <li>Seleccionar nuestra carpeta en Visual Studio y crear un archivo llamado Index </li>
+                <li>Comenzamos a añadir nuestar etiqueta de apertura html5</li>
+            </ol>
+        </div>    
+    </main>
+
+    <!--Herramienta semantica FOOTER-Pie de pagina-->
+    <!--Contiene
+          -Contacto
+          -Aviso de Privacidad
+          -Derechos reservados-->
+    <footer>
+        <p> Derechos Reservados.Yo puedo programar 2023</p>
+        <p> Realizado por Ana Karen Navarro </p>
+    </footer>
+</body>
+</html> <!--Etiqueta de cierre-->

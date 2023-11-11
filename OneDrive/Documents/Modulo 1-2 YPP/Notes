@@ -1,0 +1,17 @@
+Para poder visualizar sus cambios en el navegador que codifiquen para su pagina web tienen dos opciones
+Opción 1
+-Abrir tu carpeta donde guardaste tu documento (index.html)
+-Doble click y lo abrira en tu navegador
+Para visualizar cualquier cambio que hagas deberás guardarlo con crl+s o desde el apartado 
+File-Save
+Y en tu navegador solo deberar refrescar la página.
+
+Opción con Live Server
+-Instalas desde (Extensions) o apretando las teclas (Ctrl+Shift+X)
+Este apartado se encuentra en la barra de lado izquierdo donde aparece tu icono de buscar(es el ultimo elemento)
+-Buscar(Live server)Solo deberas instalar
+-Una vez instalado en tu codigo index daras click derecho y seleccionaras la opción
+(OPEN WITH LIVE SERVER)
+-Abriras tu pagina web en tu navegador.
+
+Las ventajas como lo comentamos en clase es que visualizas los cambios en segundos depues de guardarlos enseguida sin necesidad de refrescar la pestaña en tu navegador.
